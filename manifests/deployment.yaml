@@ -4,7 +4,7 @@ metadata:
   labels:
     app: nginx
   name: nginx
-  namespace: argocd
+  namespace: application
 spec:
   progressDeadlineSeconds: 600
   replicas: 1
